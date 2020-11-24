@@ -1,0 +1,17 @@
+{
+  "name": "node_demo",
+  "version": "1.0.0",
+  "description": "study",
+  "main": "index.js",
+  "scripts": {
+    "serve": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "henry",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.0.0-alpha.8",
+    "mongoose": "^5.10.15"
+  }
+}
