@@ -1,5 +1,6 @@
 .DS_Store
 node_modules/
+uploads/
 platforms/
 /package-lock.json
 *.zip
