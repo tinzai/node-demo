@@ -4,7 +4,8 @@
   "description": "study",
   "main": "index.js",
   "scripts": {
-    "serve": "nodemon index.js",
+    "serve": "sudo nodemon index.js",
+    "rename": "node rename.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "henry",

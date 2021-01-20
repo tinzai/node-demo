@@ -43,7 +43,7 @@ module.exports = app =>{
         const file = req.file                                        
         res.send({
             statu:200,
-            url:`http://localhost:3333/uploads/${file.filename}`,
+            url:`http://localhost:3333/uploads/${file.fileName}`,
             ...file
         })
     })
